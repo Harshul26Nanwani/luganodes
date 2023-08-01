@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #f1f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 350px;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00000018, 0px 0px 15px #00000015;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    color: #777;
+}
+.form-control{
+    padding-top: .5rem;
+}
+.form-control label{
+    color: #999;
+}
+.form-control input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: .2rem;
+    outline-color: #ddd;
+    border: 1px solid #ddd;
+    color: #888;
+}
+.form-control input::placeholder{
+    color: #999;
+}
+.container button[type="submit"]{
+    width: 100%;
+    margin-top: 1rem;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.container button[type="submit"]:hover{
+    background-color: #888;
+}
+
+.container button[type="button"]{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #ddd;
+    color: #777;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.container button[type="button"]:hover{
+    background-color: #aaa;
+}
+.container p{
+    margin: .5rem 0;
+    text-align: center;
+    color: #999;
+}
+
+/* -------------------  */
+.home{
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.home h1{
+    color: #777;
+    font-size: 5rem;
+}
+.home .home-image{
+    width: 60%;
+    margin: auto;
+}
+.home-image img{
+    width: 100%;
+}
+
+/* -------------------------  */
+.contianer-02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 60%; */
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: auto;
+
+}
+.contianer-02 .img-box{
+    width: 40%;
+}
+/* .img-box img{
+    width: 100%;
+} */
+.contianer-02 .text-box{
+    width: 60%;
+
+}
+.text-box h1{
+    font-size: 3.5rem;
+    color: #777;
+    text-align: center;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.btn-group button{
+    height: 40px;
+    width: 30%;
+    margin-right: 1rem;
+    outline: none;
+    border: none;
+    transition: all .5s ease;
+    color: #999;
+    cursor: pointer;
+}
+.btn-group .login{
+    background-color: #ddd;
+}
+.btn-group .login:hover{
+    background-color: #ccc;
+}
+.btn-group .register{
+    background-color: #777;
+    color: #fff;
+}
+.btn-group .register:hover{
+    background-color: #999;
+}
